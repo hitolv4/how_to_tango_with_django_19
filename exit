@@ -1,0 +1,35 @@
+[33mcommit bcd41fabbef74dfb504a5952582e4a44128de10c[m
+Merge: 354233e e2aa03c
+Author: victor <victorravelolv4@gmail.com>
+Date:   Fri Nov 4 08:56:15 2016 -0400
+
+    Merge https://github.com/hitolv4/how_to_tango_with_django_19
+    
+    primer commit remoto
+
+[33mcommit 354233e994d887f4c13fceb9d63090afa731a48e[m
+Author: victor <victorravelolv4@gmail.com>
+Date:   Fri Nov 4 08:37:38 2016 -0400
+
+    basic work flows
+
+[33mcommit e2aa03c098b7ddc33c4db2108984d6b704e0a6ff[m
+Merge: 92ed835 6a351d8
+Author: Viclv4 <victorravelolv4@gmail.com>
+Date:   Thu Nov 3 15:40:52 2016 -0400
+
+    Merge pull request #1 from hitolv4/hitolv4-patch-1
+    
+    msj en español
+
+[33mcommit 6a351d8f9042fbfec91d57c840cffe2881183610[m
+Author: Viclv4 <victorravelolv4@gmail.com>
+Date:   Thu Nov 3 15:38:08 2016 -0400
+
+    msj en español
+
+[33mcommit 92ed835bec33f0d92710fc805b2b8d7e7f76a892[m
+Author: Viclv4 <victorravelolv4@gmail.com>
+Date:   Thu Nov 3 15:28:07 2016 -0400
+
+    Initial commit
