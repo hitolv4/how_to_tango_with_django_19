@@ -7,25 +7,48 @@
 	<title>Rango</title>
 </head>
 <body>
-	<h1> Rango ruta</h1>
+	<h1> Rango Says...</h1>
 	<div>hey there parner!!!!</div>
 
+
     <div>
+        <h1>Most liked Categories </h1>
         {% if categories %}
         <ul>
             {% for category in categories %}
-            <li>{{category.name}}</li>
+            <!-- la siguiente linea suma un hyperlink-->
+            <li>
+                <a href="/rango/category/{{ category.slug }}">{{ category.name}}</a>
+            </li>
             {% endfor %}
         </ul>
         {% else %}
         <strong>There are no categories present.</strong>
         {% endif %}
     </div>
-    
+
+
+        <div>
+            <h1>Most viewed Pages </h1>
+            {% if pages %}
+                <ul>
+                    {% for page in pages %}
+                        <li> <a href="{{ page.url }}">{{ page.title }}</a></li>
+                    {% endfor %}
+                </ul>
+        {% else %}
+            <strong> No pages currently in category. </strong>
+        {% endif %}
+        </div>
+
+
+
+
 	<div>
-		<a href="/rango/about">About</a><br />
+		<a href="/rango/about">About Rango</a><br />
 		<img src="{% static "images/images.jpg" %}"
-			alt="Picture of Rango" /> <!-- -->
+			alt="Picture of Rango" />
+            <!-- -->
 	</div>
 
 </body>
